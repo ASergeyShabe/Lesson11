@@ -14,7 +14,7 @@ def BinarySearch(li, key):
         i = leftInd + (rightInd - leftInd) // 2
         if l1[i] == key:
             j = l1[i]
-            print('Найдено по Фамилии ', key, 'следующие ', li[j])
+            print('Найдено по Фамилии ', key, 'следующая информация', li[j])
             return i
         elif l1[i] < key:
             leftInd = i + 1
