@@ -9,7 +9,7 @@ l = {'Иванов': ['Иван', '+380992364622', 'ivan@gmail.com'],
      'Петров': ['Артем', '+380501392227', 'petrov@gmail.com'],
      'Васичкин': ['Александр', '+3806603762820', 'vasichkin@gmail.com'],
      'Седов': ['Роман', '+380991279629', 'sedov@ukr.net']}
-l1 = dict(sorted(l.items(), m=lambda i: i[1]))
+l1 = dict(sorted(l.items(), key=lambda i: i[1]))
 print(l1)
 fio = input('Введите Фамилию по которым хотите найти данные')
 def BinarySearch(li, key):
